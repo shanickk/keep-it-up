@@ -1,1 +1,16 @@
+# Ignore all
+*
+
+# Unignore all with extensions
+!*.*
+
+# Unignore all dirs
+!*/
+
+### Above combination will ignore all files without extension ###
+
+# File in current directory
 task.txt
+
+# Ignore .o extension file
+**/*.o
